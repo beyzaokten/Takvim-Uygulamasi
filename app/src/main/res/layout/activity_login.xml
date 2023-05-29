@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoşgeldin!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İsim"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyisim"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Adı"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_id_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TC Kimlik"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon Numarası"
+        android:inputType="phone"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adres"
+        android:inputType="textPostalAddress"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButton_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erkek" />
+
+        <RadioButton
+            android:id="@+id/radioButton_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kadın" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/textView_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Hesabınız yok mu?"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/textView_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Kaydol"
+        android:textColor="@color/colorRed"
+        android:textSize="16sp"/>
+</LinearLayout>

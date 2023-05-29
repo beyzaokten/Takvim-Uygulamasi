@@ -1,5 +1,5 @@
 package com.example.takvimuygulamasi;
-import com.example.takvimuygulamasi.AddEventActivity;
+
 
 import static com.example.takvimuygulamasi.R.id.date_textView;
 
